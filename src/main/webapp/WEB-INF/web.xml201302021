@@ -75,12 +75,4 @@
         <error-code>500</error-code>
         <location>/common/error.jsp</location>
     </error-page>
-	<filter>
-        <filter-name>LoginPolicyFilter</filter-name>
-        <filter-class>egovframework.com.uat.uap.filter.EgovLoginPolicyFilter</filter-class>
-    </filter>
-	<filter-mapping>
-        <filter-name>LoginPolicyFilter</filter-name>
-        <url-pattern>/uat/uia/actionLogin.do</url-pattern>
-    </filter-mapping>
 </web-app>
